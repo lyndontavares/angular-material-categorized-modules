@@ -6,6 +6,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   imports: [CommonModule, MatDialogModule, MatSnackBarModule, MatTooltipModule],
-  declarations: []
+  declarations: [],
+  exports: [MatDialogModule, MatSnackBarModule, MatTooltipModule]
 })
 export class MatPopupsModalsModule {}

@@ -6,6 +6,7 @@ import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   imports: [CommonModule, MatPaginatorModule, MatSortModule, MatTableModule],
-  declarations: []
+  declarations: [],
+  exports: [MatPaginatorModule, MatSortModule, MatTableModule]
 })
 export class MatDataTableModule {}

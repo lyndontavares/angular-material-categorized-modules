@@ -23,6 +23,17 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     MatSliderModule,
     MatSlideToggleModule
   ],
-  declarations: []
+  declarations: [],
+  exports: [
+    MatAutocompleteModule,
+    MatCheckboxModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatRadioModule,
+    MatSelectModule,
+    MatSliderModule,
+    MatSlideToggleModule
+  ]
 })
 export class MatFormControlsModule {}

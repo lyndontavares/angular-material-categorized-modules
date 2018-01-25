@@ -19,6 +19,15 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatStepperModule,
     MatTabsModule
   ],
-  declarations: []
+  declarations: [],
+  exports: [
+    MatTabsModule,
+    MatStepperModule,
+    MatListModule,
+    MatGridListModule,
+    MatExpansionModule,
+    MatDividerModule,
+    MatCardModule
+  ]
 })
 export class MatLayoutModule {}
